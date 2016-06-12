@@ -1,0 +1,13 @@
+class A {
+    virtual int foo(void) =0;
+};
+
+class B {};
+
+class C : A {
+public:
+    int var;
+};
+
+class D : B, protected C {
+};

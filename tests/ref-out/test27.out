@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+    <class kind="concrete" name="A">
+        <private>
+            <attributes>
+                <attribute name="var" type="short int **" scope="instance" />
+            </attributes> 
+            <methods>
+                <method name="method" type="int *" scope="instance">
+                    <arguments>
+                        <argument name="var" type="A &amp;" />
+                        <argument name="y" type="bool" />
+                    </arguments>
+                </method>
+            </methods>
+        </private>
+    </class>
+</model>

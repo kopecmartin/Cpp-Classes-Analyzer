@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="D" kind="concrete">
+    <inheritance>
+        <from name="C" privacy="public" />
+        <from name="B" privacy="private" />
+    </inheritance>
+    <public>
+        <attributes>
+            <attribute name="var" type="int" scope="instance">
+                <from name="C" />
+            </attribute>
+        </attributes>
+        <methods>
+            <method name="foo" type="int" scope="instance">
+                <virtual pure="no" />
+                <arguments></arguments>
+            </method>
+        </methods>
+    </public>
+</class>

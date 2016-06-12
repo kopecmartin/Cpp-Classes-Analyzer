@@ -1,0 +1,7 @@
+class B{
+  
+  virtual short int method(int a, double f, bool c) =0;
+
+  float method(int a, double f, bool c){}
+
+};

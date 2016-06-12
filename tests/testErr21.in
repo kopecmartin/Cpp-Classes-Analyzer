@@ -1,0 +1,19 @@
+class A {
+    bool method(int a){}
+}
+
+class B {}
+
+class C {
+    int a;
+}
+
+class D : A, B, C {}
+
+class F {
+    bool method(int a){}
+}
+
+class E : D {}
+
+class H : E, F {}

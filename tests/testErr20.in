@@ -1,0 +1,19 @@
+class A {
+    float a;
+}
+
+class B : A {}
+
+class C : B {}
+
+class D : C {}
+
+class E : A {}
+
+class F {}
+
+class G : D, F {}
+
+class H : E, G {}
+
+ 

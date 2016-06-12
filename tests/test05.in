@@ -1,0 +1,9 @@
+class A {
+    virtual int foo(void) =0;
+};
+
+class B {};
+
+class C : A {};
+
+class D : B, C {};

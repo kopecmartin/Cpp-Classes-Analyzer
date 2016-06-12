@@ -1,0 +1,4 @@
+class A {
+    short int ** var = 4;
+    int *method(A & var, bool y);
+}

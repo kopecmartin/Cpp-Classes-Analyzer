@@ -1,0 +1,9 @@
+class A {
+    int var =4;
+};
+
+class B : protected A{
+    
+    using A::var;
+    using A::var;
+};

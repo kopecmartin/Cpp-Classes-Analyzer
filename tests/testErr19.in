@@ -1,0 +1,8 @@
+class A {
+    float a=1.0;
+
+};
+
+class B {
+    using A::unknown;
+}
